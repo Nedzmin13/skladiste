@@ -1,3 +1,6 @@
+import product.Chocolate;
+import product.Wine;
+
 public class Zadatak {
     public static void main(String[] args) {
 

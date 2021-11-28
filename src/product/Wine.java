@@ -1,3 +1,5 @@
+package product;
+
 public class Wine extends Product {
     public static final double dodatniPorez = 10;
     private String zapremina;

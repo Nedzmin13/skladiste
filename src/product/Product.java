@@ -1,7 +1,9 @@
-public class Product extends Object {
+package product;
+
+public class Product {
 
     private static final double porez = 20;
-    //protected - naslijednici klase Product vide ove polja
+    //protected - naslijednici klase product.Product vide ove polja
     protected String nazivProizvoda;
     protected String barcode;
     protected double cijena;
@@ -34,7 +36,7 @@ public class Product extends Object {
      */
     @Override
     public String toString() {
-        return "Product[" +
+        return "product.Product[" +
                 "Naziv proizvoda='" + nazivProizvoda + '\'' +
                 ", barkod='" + barcode + '\'' +
                 ", cijena=" + cijena +

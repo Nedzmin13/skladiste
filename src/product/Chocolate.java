@@ -1,3 +1,5 @@
+package product;
+
 public class Chocolate extends Product {
 
     private String tezina;
